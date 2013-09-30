@@ -106,7 +106,7 @@ void initX(int argc, char* argv[], XInfo& xInfo)
 	// Makes display visible for user
 	makeVisible( xInfo );
 	// Introduction screen
-//	introduction( xInfo );
+	introduction( xInfo );
 	// Draws the entire scene for the Mario game
 	drawScene( xInfo );
 	// The starting text is displayed
